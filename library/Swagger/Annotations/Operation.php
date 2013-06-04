@@ -87,6 +87,11 @@ class Operation extends AbstractAnnotation
     public $deprecated;
 
     /**
+     * @var string
+     */
+    public $group;
+
+    /**
      * @param array $values
      */
     public function __construct($values)

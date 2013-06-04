@@ -75,6 +75,12 @@ class Parameter extends AbstractAnnotation
     public $allowableValues;
 
     /**
+     * This is a custom property used by ThreeScale.net's ActiveDocs
+     * @var threescale_name
+     */
+    public $threescale_name;
+
+    /**
      * @var mixed
      */
     public $defaultValue;
